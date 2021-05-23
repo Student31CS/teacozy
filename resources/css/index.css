@@ -1,0 +1,157 @@
+html {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    text-align: center;
+}
+
+header {
+    background-color: black;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    height: 3.1363636363636362rem;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    z-index: 1;
+    margin-top: -10px;
+    align-items: center;
+}
+
+header #logo {
+    height: 50px;
+    width: auto;
+    padding-left: 0.45rem;
+    display: inline-block;
+    margin-right: auto;
+}
+
+a {
+    color: inherit;
+}
+
+nav ul {
+    list-style: none;
+    text-decoration: underline;
+    display: flex;
+}
+
+nav ul li {
+    padding-right: 1rem;
+}
+
+@media only screen and (max-width: 575px) {
+
+    header {
+        justify-content: center;
+    }
+
+    header #logo {
+        display: none;
+    }
+}
+
+#mission {
+    background-image: url(../images/mission-background.webp);
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+    height: 31.81rem;
+    max-width: 54.54rem;
+    top: 3.1363636363636362rem;
+    position: relative;
+    display: flex;
+
+}
+
+.title {
+    background-color: black;
+    width: 100%;
+    height: fit-content;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.title h2 {
+    font-weight: bold;
+    margin-bottom: 0;
+    margin-top: 0.75rem;
+}
+
+.title h4 {
+    font-weight: bold;
+    margin-bottom: 0.75rem;
+    margin-top: 0.75rem;
+}
+
+#teas {
+    margin: 0 auto;
+    padding-top: 3.1363636363636362rem;
+}
+
+.gallery {
+    background-color: black;
+    padding-top: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 45.45rem;
+    margin: auto;
+}
+
+.gallery .caption {
+    display: flex;
+    flex-direction: column;
+}
+
+.gallery img {
+    height: 9.09rem;
+    width: 11.63rem;
+}
+
+@media screen and (max-width: 1000px) {
+    .gallery {
+        flex-direction: column;
+        align-content: center;
+        width: 100%;
+    }
+}
+
+#locations {
+    background-image: url(../images/locations-background.webp);
+    background-size: cover;
+    background-position: center;
+    margin: 2rem auto;
+    height: 22.7272rem;
+    max-width: 54.54rem;
+    padding-top: 3.1363636363636362rem;
+}
+
+.locations {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.locations .location-box {
+    background-color: black;
+    opacity: 1;
+    width: 13.6363rem;
+} 
+
+#section {
+    display: flex;
+    background-color: black;
+    height: 9.0909rem;
+    width: 100%;
+    flex-direction: column;
+    align-content: center;
+}
+
+#copyright {
+    margin-left: 20px;
+    text-align: start;
+}
